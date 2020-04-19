@@ -1,0 +1,244 @@
+body,li,ul,h1,h2,a{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+.header{
+
+    background-color: rgb(252, 29, 29);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h2{
+
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline;
+    border-radius: 70px;
+}
+.banner{
+    position: relative;
+}
+
+.banner img{
+
+    max-width: 100%;
+}
+
+.banner .welcome{
+
+    background-color: #feb614;
+    color: white;
+    padding: 65px;
+    position: absolute;
+    top: 35%;
+    left: 0px;
+}
+
+.welcome span{
+
+    font-size: 50px;
+}
+
+nav{
+
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 66px;
+}
+
+nav ul{
+
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav li{
+
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav li a{
+
+    text-decoration: none;
+    color: rgb(135, 196, 135) ;
+}
+
+nav li a.join1{
+
+    color: red;
+}
+
+main{
+
+    max-width: 100%;
+    width: 800px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+article h2{
+
+    color: rgb(235, 103, 70);
+    font-size: 48px;
+}
+
+article p{
+
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+p{
+    
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+.images{
+
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+    
+}
+
+.join{
+
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+
+.join h2{
+
+    font-size: 31px;
+}
+
+form input{
+
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid white;
+    
+}
+
+footer p{
+    background: rgb(252, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.myname a{
+
+    color: black;
+    text-decoration: none;
+}
+
+ul li:hover{
+
+    text-decoration: underline;
+}
+
+header h2:hover{
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.images li:hover{
+
+    position: relative;
+    bottom: 6px;
+}
+
+form input:focus{
+
+    outline: none;
+    border: 1px solid white;
+
+}
+
+form input:valid{
+
+    border: 4px solid green;
+}
+
+p::selection{
+
+    color: white;
+    background-color: red;
+}
+
+@media screen and (max-width:1000px){
+
+    .banner .welcome h1{
+
+        font-size: 20px;
+    }
+
+    .banner span{
+        font-size: 35px;
+    }
+
+    nav li{
+
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:705px){
+
+    .banner .welcome h1{
+
+        font-size: 10px;
+    }
+
+    .banner span{
+        font-size: 25px;
+    }
+
+    nav li{
+
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:705px){
+
+    article h2 {
+
+        font-size: 29px;
+    }
+
+    p{
+        font-size: 12px;
+
+    }
+}
+
